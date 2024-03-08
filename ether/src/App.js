@@ -32,6 +32,7 @@ function App() {
         setUsdtBalance(balance);
       }
     } catch (error) {
+      alert("Invalid Address")
       console.error('Error fetching USDT balance:', error.message);
     }
   };
