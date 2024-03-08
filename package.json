@@ -20,7 +20,7 @@
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "react-scripts test --config=jest.config.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
