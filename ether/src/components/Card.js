@@ -15,7 +15,7 @@ export default function Card({ title, value, address, button, onClick, onChange 
             value={address}
           />
         )}
-        <MDBCardText>{value}</MDBCardText>
+<MDBCardText>{value}</MDBCardText>
         {button && <MDBBtn onClick={onClick}>{button}</MDBBtn>}
       </MDBCardBody>
     </MDBCard>
