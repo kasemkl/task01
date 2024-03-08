@@ -1,0 +1,17 @@
+.App {
+  background: #faf9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;}
+
+.ether-info{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
